@@ -18,6 +18,8 @@
         await page.getByTitle('App Launcher',{exact : true}).click()
         await page.getByLabel('View All Applications',{exact : true}).click()
         await page.getByPlaceholder('Search apps or items...',{exact : true}).fill('Lead')
-
+     
+      //modification done
+     console.log("Learned Playwright Locators")
         
     })
